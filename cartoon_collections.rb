@@ -17,7 +17,7 @@ end
 
 def find_the_cheese(array) 
  i = 0 
- if array.include?("cheddar" || "gouda" || "camembert")
+ if array.include?("cheddar") || array.include?("gouda") || array.include?("camembert")
    return "#{array[i]}"
  else 
    i +=1 
