@@ -16,13 +16,14 @@ def long_planeteer_calls(array)
 end 
 
 def find_the_cheese(array) 
- i = 0 
- if array.include?("cheddar") || array.include?("gouda") || array.include?("camembert")
-   return "#{array[i]}"
+ if array.include?("cheddar")
+   return "cheddar"
+ elsif array.include?("gouda")
+   return "gouda"
+ elsif array.include?("camembert")
+   return "camembert"
  else 
-   i += 1 
- end 
- nil 
+   nil 
 end 
 
 
