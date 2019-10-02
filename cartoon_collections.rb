@@ -18,7 +18,7 @@ end
 def find_the_cheese(array) 
  i = 0 
  if array[i].include?("cheddar", "gouda", "camembert")
-   return array[i].to_str
+   return "#{array[i]}"
  else 
    i +=1 
  end 
